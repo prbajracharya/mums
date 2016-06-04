@@ -18,7 +18,7 @@ public class FancyNum {
 			System.out.print(f3 + ", ");
 			if(n == f3){
 				return 1;
-			}
+			} 
 			
 		}//end of for i
 
@@ -39,9 +39,13 @@ public class FancyNum {
 		
 		FancyNum fn = new FancyNum();
 		
-		System.out.println("Is 17 a fancy number? : " + fn.isFancy(61));
+		System.out.println("Is 17 a fancy number? : " + fn.isFancy(17));
 		
 		//System.out.println("Is 17 a fancy number? : " + fn.isFancyRecur(17));
+		
+		System.out.println("Is 61 a fancy number? : " + fn.isFancy(61));
+		
+		System.out.println("Is 16 a fancy number? : " + fn.isFancy(16));
 	}
 
 }

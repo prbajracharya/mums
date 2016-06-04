@@ -10,20 +10,20 @@ public class Jan23_3 {
 			for(int j = 0; j < a.length; j++){
 				if(a[j] == 2*a[i] || a[j] == 2*a[i]+1 || a[j] == a[i]/2){
 					isBean = true;
-					return 1;
+					break;
 				}
 			}//end of inner for j
 			if(!isBean){
 				return 0;
 			}
 		}
-		return 0;
+		return 1;
 	}
 	public static void main(String[] args) {
 		
 		Jan23_3 bean = new Jan23_3();
 		
-		int[] a = {4,9,8};
+		int[] a = {4,13,8};
 		System.out.println("Is A Bean array? : "+ bean.isBean(a));
 		
 		int[] b = {2,2,5,11,23};

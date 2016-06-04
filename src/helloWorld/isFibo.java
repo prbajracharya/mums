@@ -1,7 +1,7 @@
 package helloWorld;
 
 public class isFibo {
-/*
+
 	int isFibonacci(int n){
 		if( n==1){
 			return 1;
@@ -20,7 +20,7 @@ public class isFibo {
 		//System.out.println("");
 		return 0;
 	}
-	*/
+	/* does not work
 	
 	int isFibonacci(int n){
 		if(n==0 || n==1){
@@ -32,6 +32,7 @@ public class isFibo {
 		}
 		return 0;
 	}
+	*/
 
 	public static void main(String[] args) {
 		isFibo fibo = new isFibo();

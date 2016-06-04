@@ -14,7 +14,7 @@ public class GuthrieSequence {
 			}else{
 				num = num*3 + 1;
 			}
-			//System.out.print(num);
+			System.out.print(num);
 			if(num != a[i]){
 				return 0;
 			}

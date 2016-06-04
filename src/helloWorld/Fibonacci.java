@@ -23,8 +23,8 @@ public class Fibonacci {
 	}
 	
 	int isFibonacci(int n){
-		for(int i=1; getNthFibonacci(i) <= n; i++){
-			if(getNthFibonacci(i) == n){
+		for(int i=1; getNthFibonacciRecursive(i) <= n; i++){
+			if(getNthFibonacciRecursive(i) == n){
 				return 1;
 			}
 		}

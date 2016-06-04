@@ -8,9 +8,9 @@ public class Mar26_1 {
 		}
 		int x = 0;
 		
-		for(int i = 1 ; n%p == 0; i++){
+		while( n%p == 0 ){
 			n /= p;
-			x = i;
+			x ++;
 		}
 		return x;
 	}

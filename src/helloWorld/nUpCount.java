@@ -10,6 +10,7 @@ public class nUpCount {
 			sum += a[i];
 			
 			if(sum > n && partSum <= n){
+			
 				nUpCount++;
 			}
 		}

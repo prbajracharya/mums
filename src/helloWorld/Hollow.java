@@ -19,7 +19,7 @@ public class Hollow {
 			return 0;
 		}
 		
-		for(int k = 0; k<a.length; k++){
+		for(int k = 0; k<a.length-2; k++){
 			if(a[k]!=0 && a[k+1] ==0 && a[k+2]!=0){
 				return 0;
 			}
@@ -58,7 +58,7 @@ public class Hollow {
 		int[] e = {0,1,2,0,0,0,3,4};
 		System.out.println("Is E an hollow array : " + h.isHollow(e));
 		
-		int[] f = {1,2,1,0,0,0,3,0,4};
+		int[] f = {1,2,1,0,0,0,3,0,4,5,6};
 		System.out.println("Is F an hollow array : " + h.isHollow(f));
 		
 		int[] g = {1,2,1,0,0,3,6,4};

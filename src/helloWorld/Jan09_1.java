@@ -41,6 +41,10 @@ public class Jan09_1 {
 		System.out.println("Min Distance among non trivial factors of 25 : " + md.minDistance(25));
 		
 		System.out.println("Min Distance among non trivial factors of 11 : " + md.minDistance(11));
+		
+		System.out.println("MinDistance of Factors of 13013 : " + md.minDistance(13013));
+		
+		System.out.println("MinDistance of Factors of 8 : " + md.minDistance(8));
 	}
 
 }

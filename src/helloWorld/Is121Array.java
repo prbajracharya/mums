@@ -6,7 +6,7 @@ public class Is121Array {
 		int countStartOne = 0;
 		int countEndOne = 0;
 		
-		if(a[0]!=1){
+		if(a[0] != 1 || a[a.length-1] != 1){
 			return 0;
 		}
 		
@@ -39,11 +39,11 @@ public class Is121Array {
 			}
 			//System.out.println("CountEndOne : " + countEndOne);
 			
-			if(countStartOne != countEndOne){
-				return 0;
+			if(countStartOne == countEndOne){
+				return 1;
 			}
 			
-			return 1;
+			return 0;
 
 	}
 	public static void main(String[] args) {
